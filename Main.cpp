@@ -19,7 +19,9 @@ int main() {
 	do {
 		cout << "Enter the size of your arrays: ";
 		cin >> arrSize;
-		cout << endl;
+		if (arrSize < 1) {
+			cout << "Incorrect array size. Try Again\n" << endl;
+		}
 	} while (arrSize < 1);
 	int *arrOne = new int[arrSize];
 	int *arrTwo = new int[arrSize];
