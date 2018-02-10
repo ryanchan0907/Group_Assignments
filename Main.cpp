@@ -28,7 +28,7 @@ int main() {
 	//fill arrays with ints from the user
 	cout << "Now filling up array one.\n";
 	fillArr(arrOne, arrSize);
-	cout << "----------------------------" << endl;;
+	cout << "----------------------------" << endl;
 	cout << "Now filling up array two.\n";
 	fillArr(arrTwo, arrSize);
 
